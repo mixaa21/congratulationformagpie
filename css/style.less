@@ -48,7 +48,7 @@
 }
 
 body, html {
-	width:100%;
+	width:100vw;
 	height:100vh;
 }
 
@@ -58,7 +58,7 @@ body, html {
 
 .main {
 	height:100vh;
-	width:100%;
+	width:100vw;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -69,12 +69,12 @@ body, html {
 		opacity: 0;
 		animation: myanimation2 2s 10s;
 		animation-fill-mode: forwards;
-		position: absolute;
-		top:center;
-		left:center;
 		pre {
 			font-family: 'Caveat-Regular', cursive;
 			font-size: 25px;
+			@media(max-width: 350px){
+				font-size:18px;
+		}
 		}
 		color:white;
 		text-align: center;
@@ -96,6 +96,9 @@ body, html {
 		position:absolute;
 		top:0;
 		left:0;
+		@media(max-width: 350px){
+			font-size:18px;
+		}
 	}
 	.block__img {
 		position: absolute;

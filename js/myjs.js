@@ -5,8 +5,8 @@ var l = 7;
 
 var speed = 90; /* Скорость/длительность эффекта в миллисекундах */
 var speed1 = 10;
-var txt = 'Wake up Magpie...\n'; /* Текст */
-var txt1 = 'The matrix has you';
+var txt = 'Wake up, Magpie...\n'; /* Текст */
+var txt1 = 'The Matrix has you...';
 var txt2 = 'Упс)))))';
 
 function typeWriter() {
